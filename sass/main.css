@@ -93,8 +93,25 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .section-cart {
   padding: 70px 0 90px;
+}
+
+.section-card__header {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.title-1 {
+  font-size: 28px;
+  line-height: 1.3;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */
