@@ -3,11 +3,17 @@
 }
 
 .count__box {
+  width: 40px;
+  height: 30px;
+  background: #EAEFF2;
+  border-radius: 3px;
 
 }
 
 .count__input {
-
+  max-width: 100%;
+  padding-top: 4px;
+  background-color: transparent;
 }
 
 .count__input::-webkit-inner-spin-button,
