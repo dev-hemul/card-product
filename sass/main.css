@@ -114,4 +114,38 @@ body {
   font-weight: 700;
 }
 
+.cart-header {
+  display: grid;
+  grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+  padding: 22px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #EAEFF2;
+}
+
+.cart-header__title {
+  grid-column-start: 2;
+}
+
+.cart-footer {
+  display: grid;
+  grid-template-columns: 5fr 3fr 4fr;
+  padding: 19px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  background-color: #EAEFF2;
+  color: #000;
+}
+
+.cart-footer__count {
+  grid-column-start: 2;
+}
+
 /*# sourceMappingURL=main.css.map */

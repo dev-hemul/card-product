@@ -1,0 +1,15 @@
+.cart-footer {
+  display: grid;
+  grid-template-columns: 5fr 3fr 4fr;
+  padding: 19px 0;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  background-color: #EAEFF2;
+  color: #000;
+}
+
+.cart-footer__count {
+  grid-column-start: 2;
+}
